@@ -1,0 +1,53 @@
+Q1. Print Welcome
+#include <stdio.h>
+
+int main() {
+    printf("Welcome");
+    return 0;
+}
+
+Q2. Print the given word
+#include <stdio.h>
+
+int main() {
+    printf("Hello");
+    return 0;
+
+
+Q3. Print the given Message
+#include <stdio.h>
+
+int main() {
+    printf("Good Morning Everyone!");
+    return 0;
+}
+
+
+
+Q4. Print the given integer number
+#include <stdio.h>
+
+int main() {
+    int num = 25;    // You can change 25 to any number
+    printf("%d", num);
+    return 0;
+}
+
+Q5. Print the given fractional (float) number
+#include <stdio.h>
+
+int main() {
+    float num = 12.345;
+    printf("%f", num);
+    return 0;
+}
+
+Q6. Print fractional number in 2-digit decimal format
+#include <stdio.h>
+
+int main() {
+    float num = 12.345;
+    printf("%.2f", num);   // prints only 2 digits after decimal
+    return 0;
+}
+
